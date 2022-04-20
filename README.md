@@ -1,2 +1,2 @@
 # CJX-parser
-Easy parser of CSV.JSON.XML
+Easy file transformer between CSV.JSON.XML
