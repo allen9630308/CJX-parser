@@ -27,7 +27,7 @@ int main() {
     file.close();
     file.open(in_filename);
     while (getline(file, line)) {
-        full_strip(line);
+        line = full_strip(line);
         reads(line, in_genre, lnn);
     }
     if (flag != 0)
