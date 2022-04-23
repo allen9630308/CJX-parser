@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "ll_string.hpp"
 #include "parser_lib.hpp"
 using namespace std;
 extern int flag;
@@ -26,6 +27,7 @@ int main() {
     file.close();
     file.open(in_filename);
     while (getline(file, line)) {
+        full_strip(line);
         reads(line, in_genre, lnn);
     }
     if (flag != 0)
