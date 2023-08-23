@@ -16,7 +16,7 @@ bool upper(char c) {
         return false;
 }
 
-int lower(char c) {
+bool lower(char c) {
     if (c > 96 && c < 123)
         return true;
     else
